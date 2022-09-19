@@ -1,0 +1,580 @@
+/* HTML */
+*{
+    font-family: 'Oswald', sans-serif;
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 650px) {
+    .jumbotron.jumbo3{
+        display: none;
+    }
+
+    .jumbotron.jumbo1{
+        display: none;
+    }
+
+    .contactus{
+        display:none;
+    }
+
+    .textnews h3{
+        margin-top: -200px;
+    }
+
+    .textnews{
+        padding-bottom: 20px;
+    }
+
+    .btnfooter{
+        margin-top: -120px;
+    }
+
+    .carousel-inner.about .carousel-item img{
+        margin-top: 150px;
+    }
+
+    .textnews{
+        padding-top: 130px;
+    }
+
+    button.newsbtn{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .kol3{
+        margin-top: 70px;
+    }
+
+}
+
+@media (min-width: 651px) {
+    .jumbotron.jumbo3{
+        height: 250px;
+        background-position: center;
+    }
+
+    .form-mobile{
+        display:none;
+    }
+
+    .form-mobile form{
+        display: none;
+    }
+
+    .jumbomobile{
+        display: none;
+    }
+}
+
+/* Navbar */
+@media (min-width:992px) {
+    .navbar-custom{
+        height: 60px;
+    }
+
+    .nav-link{
+        margin-right: 40px;
+        font-size: 15px;
+    }
+
+    .navi.custom-primary-btn{
+        font-size: 15px;
+    }
+
+    .jumbotron button{
+        margin-top: 87px;
+    }
+
+    .section1{
+        margin-top: 100px;
+    }
+
+    .imagenews{
+        margin-bottom: 228px;
+    }
+
+
+}
+.navbar-custom{
+    background-color: #042C56 !important;
+}
+
+.navi.custom-primary-btn{
+    height: 40px;
+    width: 130px;
+    background-color: #042C56;
+    border: 2px solid white;
+    color: white;
+}
+
+.jumbotron.jumbo1{
+    background-image: url("home.jpg");
+    height: 960px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.jumbotron.jumbo2{
+    background-image: url("news.jpg");
+    height: 960px;
+    background-size: cover;
+}
+
+a.contactnav{
+    text-decoration: none;
+}
+
+.form-mobile{
+    background-color: #042C56;
+}
+
+.whitebg{
+    background-color: white;
+}
+
+.jumbotron.jumbo3{
+    background-image: url("head\ area\ porto\ page\ 2000x1000\ px.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+
+.jumbotron.jumbo3 h1{
+    font-weight: 700;
+    text-shadow: 3px 2px #000;
+    margin-top: 600px;
+}
+
+.jumbotron h1{    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    margin-top: 393px;
+}
+
+.jumbotron.jumbo2 h1{
+    font-weight: 700;
+}
+
+.jumbotron p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+
+}
+
+/* .Jumbotron-primary-btn{
+    height: 40px;
+    width: 130px;
+    background-color: #042C56;
+    border:none;
+    color: white;
+    margin-top: 2000px;
+} */
+
+.container1{
+    margin-top: 102px;
+}
+
+.section1{
+    margin-top: 25px;
+}
+
+.section1 h3{
+    margin-bottom: 24px;
+}
+
+.section1 p{
+    margin-bottom: 24px;
+}
+
+.section1 button{
+    width: 192px;
+    height: 52px;
+    background-color: #042C56;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+
+#team{
+    background-color: #042C56;
+    margin-top: 53px;
+    padding-bottom: 30px;
+}
+
+#team1{
+    margin-top: 75px;
+    padding-bottom: 30px;
+}
+
+#team1 h3{
+    color: #042C56;
+    font-size: 48px;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+}
+
+#team h3{
+    color: #FFFFFF;
+    font-size: 48px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.portobtn{
+    margin-top: 10px;
+    height: 52px;
+    color: #042c56;
+    margin-bottom: 105px;
+}
+
+.portobtn button{
+    border-radius: 6px;
+}
+
+.sectionstrength{
+    background-image: url('Texture-min.png');
+    background-size: cover;
+}
+
+.news{
+    background-color: #042C56;
+    color: #FFFFFF;
+}
+
+.newsnew{
+    color: #042C56;
+}
+
+.titlenews h3{
+    padding-top: 30px;
+    margin-bottom: 50px;
+    font-size: 48px;
+}
+
+.textnews{
+    margin-top: 100px;
+}
+
+.textnews p{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.newsbtn{
+    background: #FFFFFF;
+    border-radius: 6px;
+    color: #042C56;
+    border: none;
+    height: 52px;
+    width: 192px;
+}
+
+.newsbtn a{
+    color: #042C56;
+}
+
+.newsbtnnew{
+    background: #042C56;
+    border-radius: 6px;
+    color: #FFFFFF;
+    border: none;
+    height: 52px;
+    width: 192px;
+}
+
+
+.video{
+    background: url('Texture-min.png');
+    background-size: cover;
+}
+
+.videotitle{
+    padding-top: 100px;
+    margin-bottom: 67px;
+}
+
+.videotitle h3{
+    font-size: 48px;
+    color: #042C56;
+}
+
+.videotitles h3{
+    font-size: 48px;
+    color: #042C56;
+    margin-bottom: 50px;
+}
+
+.videoimg iframe{
+    margin-bottom: 150px;
+}
+
+.contactus{
+    background-color: #042C56;
+    color: #FFFFFF;
+    padding-bottom: 70px;
+}
+
+.contactform{
+    background-color: #FFFFFF;
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btnprimsubmit{
+    width: 130px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #042C56;
+    color: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 29px;
+    margin-top: 8px;
+}
+
+.down a{
+    color: #042C56;
+}
+
+.email{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.contacttitle h3{
+    padding-top: 50px;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.contacttitle p{
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.textcontact h3{
+    z-index: 99;
+    color: #042C56;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 64px;
+    margin-top: 51px;
+    font-weight: 700px;
+    font-size: 24px;
+}
+
+.txtfooter p{
+    color: #042C56;
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.btnfooter button{
+    margin-top: 84px;
+    margin-bottom: 84px;
+    height: 40px;
+    width: 120px;
+    background-color: #FFFFFF;
+    color: #042C56;
+    border: 2px #042C56 solid;
+    border-radius: 6px;
+}
+
+.copyright{
+    background-color: #000;
+    color: #FFFFFF;
+}
+
+.copyrighttext p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.process{
+    background: url('Texture-min.png');
+    background-size: cover;
+    z-index: -2;
+}
+
+.processimg{
+    margin-top: 50px;
+}
+
+.blueish{
+    color: #042C56;
+}
+
+.carouselcapt h5{
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.carousel-item img{
+    opacity: 0.95;
+}
+
+section.Historysec{
+    background-color: #042C56;
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+
+.historytitle h3{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.historybrief p{
+    font-size: 24px;
+    text-align: justify;
+}
+
+section.Visionsec{
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+
+.visiontitle h3{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.visionbrief p{
+    font-size: 24px;
+    text-align: center;
+}
+
+section.Misionsec{
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+
+.Misiontitle h3{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.Misionbrief p{
+    font-size: 24px;
+    text-align: center;
+}
+
+.Misionbrief{
+    padding-bottom: 50px;
+}
+
+.sectionclient{
+    background-image: url("Texture-min.png");
+    background-size: cover;
+}
+
+.categorychoose input{
+    margin-left: 20px;
+}
+
+.categorycontainer{
+    background-color: #042C56;
+    color: #FFFFFF;
+    width: 250px;
+}
+
+.cte{
+    margin-top: 50px;
+}
+
+.containerform{
+    background-color: #042C56;
+    color: #FFFFFF;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btnprimsubmit.btnmobile{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-area{
+    margin-top: 50px;
+}
+
+.info-area h4{
+    color: #042C56;
+}
+
+.info-area p{
+    color: #042C56;
+}
+
+.sectioninfo{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.kol1{
+    margin-bottom: 25px;
+    margin-top:70px;
+}
+
+.kol2{
+    margin-bottom: 25px;
+    margin-top: 70px;
+}
+
+.kol3{
+    margin-bottom: 25px;
+}
+
+.kol2 .markname{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.infocont{
+    background-color: #042C56;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.contactus.contact-forum{
+    background-color: #555555;
+}
+
+.form-mobile#contact-forums{
+    background-color: #555555;
+}
+
+
+
+
+
+
