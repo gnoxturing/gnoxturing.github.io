@@ -1,0 +1,757 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="sidebars.css">
+  <link rel="stylesheet" href="checkbox.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  <title>portofolio</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-custom navbar-dark navbar-custom">
+      <img src="logo ppmb.png" width="200" alt="">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse navbar-custom" id="navbarNavAltMarkup">
+      <div class="navbar-nav mx-auto">
+        <a class="nav-link active" href="index.html">Home</a>
+        <a class="nav-link active" href="about.html">About Us</a>
+        <a class="nav-link active" href="portofolio.html">Portofolio</a>
+        <a class="nav-link active" href="process.html">Our Process</a>
+        <a class="nav-link active" href="news.html">News</a>
+      </div>
+      <button class="navi custom-primary-btn"><a href="contact.html" class="contact-nav text-white">Contact Us</a></button>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron jumbo3">
+    <div class="container">
+      <h1 class="display-4" style="font-family: 'Oswald';">Portofolio</h1>
+    </div>
+  </div>
+
+  <!-- Jumbotron -->
+  <div class="jumbomobile">
+    <div class="container">
+      <img src="head area porto page 2000x1000 px.jpg" class="mx-auto" width="370px">
+    </div>
+  </div>
+
+  <!-- Category -->
+  <section class="container container-fluid cte" data-aos="fade-up">
+    <div class="row flex-xl-nowrap">
+      <div class="col-md-3 containerform">
+        <div class="categorytext">
+          <h4>Categories :</h4>
+        </div>
+        <div class="row d-flex justify-content-start">
+          <form>
+            <!-- Pakaian Dinas -->
+            <div class="form-group row">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="bajudinas" value="bajudinas" name="category"
+                  checked>
+                <label class="form-check-label" for="gridCheck1">
+                  Pakaian Dinas
+                </label>
+              </div>
+            </div>
+
+            <!-- Batik -->
+            <div class="form-group row">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="batik" value="batik" name="category" checked>
+                <label class="form-check-label" for="gridCheck1">
+                  Batik
+                </label>
+              </div>
+            </div>
+
+            <!-- Jaket & Rompi -->
+            <div class="form-group row">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="jaket" value="jaket" name="category" checked>
+                <label class="form-check-label" for="gridCheck1">
+                  Jaket & Rompi
+                </label>
+              </div>
+            </div>
+
+            <!-- Kaos & Polo -->
+            <div class="form-group row">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="kaos" value="kaos" name="category" checked>
+                <label class="form-check-label" for="gridCheck1">
+                  Kaos & Polo Shirt
+                </label>
+              </div>
+            </div>
+
+            <!-- APD -->
+            <div class="form-group row">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="apd" value="apd" name="category" checked>
+                <label class="form-check-label" for="gridCheck1">
+                  APD
+                </label>
+              </div>
+            </div>
+
+            <!-- Olahraga -->
+            <div class="form-group row">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="or" value="or" name="category" checked>
+                <label class="form-check-label" for="gridCheck1">
+                  Olahraga
+                </label>
+              </div>
+            </div>
+
+            <!-- Hospitality -->
+            <div class="form-group row">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="host" value="host" name="category" checked>
+                <label class="form-check-label" for="gridCheck1">
+                  Hospitality
+                </label>
+              </div>
+            </div>
+
+            <!-- Kain -->
+            <div class="form-group row">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="kain" value="kain" name="category" checked>
+                <label class="form-check-label" for="gridCheck1">
+                  Kain
+                </label>
+              </div>
+            </div>
+
+          </form>
+        </div>
+
+        <!-- Brands -->
+        <div class="brandtext">
+          <h4>Brands :</h4>
+        </div>
+        <div class="row d-flex justify-content-start">
+          <form id="filters">
+
+            <!-- TNI -->
+            <div class="form-group row">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="tni" value="tni" checked>
+                <label class="form-check-label" for="gridCheck1">
+                  TNI
+                </label>
+              </div>
+            </div>
+
+            <!-- bumn -->
+            <div class="form-group row">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="bumn" value="bumn" checked>
+                <label class="form-check-label" for="gridCheck1">
+                  BUMN
+                </label>
+              </div>
+            </div>
+
+            <!-- Polri -->
+            <div class="form-group row">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="polri" value="polri" checked>
+                <label class="form-check-label" for="gridCheck1">
+                  POLRI
+                </label>
+              </div>
+            </div>
+
+            <!-- Swasta -->
+            <div class="form-group row">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="swasta" value="swasta" checked>
+                <label class="form-check-label" for="gridCheck1">
+                  Swasta
+                </label>
+              </div>
+            </div>
+
+            <!-- Kemenhan -->
+            <div class="form-group row">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="kemhan" value="kemhan" checked>
+                <label class="form-check-label" for="gridCheck1">
+                  Kementrian Pertahanan
+                </label>
+              </div>
+            </div>
+
+            <!-- Dinas Provinsi -->
+            <div class="form-group row">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="dinas" value="dinas" checked>
+                <label class="form-check-label" for="gridCheck1">
+                  Dinas Provinsi
+                </label>
+              </div>
+            </div>
+
+          </form>
+        </div>
+      </div>
+
+
+      <div class="col-md-9">
+        <div class="row row-cols-1 row-cols-md-3">
+
+
+          <!-- Hospitality -->
+          <!-- BUMN -->
+          <div class="col mb-4 item" data-category="bumn host">
+            <div class="card h-100 ">
+              <img src="prod10.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="bumn host">
+            <div class="card h-100 ">
+              <img src="prod11.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+
+          <div class="col mb-4 item" data-category="bumn host">
+            <div class="card h-100 ">
+              <img src="prod12.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+
+          <div class="col mb-4 item" data-category="bumn host">
+            <div class="card h-100 ">
+              <img src="prod13.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+
+          <div class="col mb-4 item" data-category="bumn host">
+            <div class="card h-100 ">
+              <img src="prod14.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <!-- Kaos -->
+          <!-- Polri -->
+          <div class="col mb-4 item" data-category="polri kaos">
+            <div class="card h-100 ">
+              <img src="prod16.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri kaos">
+            <div class="card h-100 ">
+              <img src="prod17.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri kaos">
+            <div class="card h-100 ">
+              <img src="prod18.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri kaos">
+            <div class="card h-100 ">
+              <img src="prod19.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri kaos">
+            <div class="card h-100 ">
+              <img src="prod20.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <!-- TNI -->
+          <div class="col mb-4 item" data-category="tni kaos">
+            <div class="card h-100 ">
+              <img src="prod21.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="tni kaos">
+            <div class="card h-100 ">
+              <img src="prod22.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="tni kaos">
+            <div class="card h-100 ">
+              <img src="prod23.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <!-- Swasta -->
+          <div class="col mb-4 item" data-category="swasta kaos">
+            <div class="card h-100 ">
+              <img src="prod24.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="swasta kaos">
+            <div class="card h-100 ">
+              <img src="prod25.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <!-- Pakaian Dinas -->
+          <!-- Polri -->
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod47.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod48.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod49.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod50.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod51.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod52.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod53.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod54.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod55.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod56.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod57.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod58.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod59.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod60.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod61.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod62.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod63.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod64.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod65.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod66.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod67.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod68.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod69.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod70.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod71.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod72.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod73.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod74.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod75.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri bajudinas">
+            <div class="card h-100 ">
+              <img src="prod76.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <!-- TNI -->
+          <div class="col mb-4 item" data-category="tni bajudinas">
+            <div class="card h-100 ">
+              <img src="prod42.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="tni bajudinas">
+            <div class="card h-100 ">
+              <img src="prod43.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="tni bajudinas">
+            <div class="card h-100 ">
+              <img src="prod44.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="tni bajudinas">
+            <div class="card h-100 ">
+              <img src="prod45.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="tni bajudinas">
+            <div class="card h-100 ">
+              <img src="prod46.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <!-- KEMENHAN -->
+          <div class="col mb-4 item" data-category="kemhan bajudinas">
+            <div class="card h-100 ">
+              <img src="prod41.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="kemhan bajudinas">
+            <div class="card h-100 ">
+              <img src="prod40.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="kemhan bajudinas">
+            <div class="card h-100 ">
+              <img src="prod39.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="kemhan bajudinas">
+            <div class="card h-100 ">
+              <img src="prod38.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="kemhan bajudinas">
+            <div class="card h-100 ">
+              <img src="prod37.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <!-- BUMN -->
+          <div class="col mb-4 item" data-category="kemhan bajudinas">
+            <div class="card h-100 ">
+              <img src="prod36.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <!-- Batik -->
+          <!-- Polri -->
+          <div class="col mb-4 item" data-category="polri batik">
+            <div class="card h-100 ">
+              <img src="prod30.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri batik">
+            <div class="card h-100 ">
+              <img src="prod31.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri batik">
+            <div class="card h-100 ">
+              <img src="prod32.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri batik">
+            <div class="card h-100 ">
+              <img src="prod33.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri batik">
+            <div class="card h-100 ">
+              <img src="prod34.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <!-- Dinas Provinsi -->
+          <div class="col mb-4 item" data-category="dinas batik">
+            <div class="card h-100 ">
+              <img src="prod35.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <!-- Jaket & rompi -->
+          <div class="col mb-4 item" data-category="polri jaket">
+            <div class="card h-100 ">
+              <img src="prod26.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri jaket">
+            <div class="card h-100 ">
+              <img src="prod27.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri jaket">
+            <div class="card h-100 ">
+              <img src="prod28.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <!-- Kain -->
+          <!-- BUMN -->
+          <div class="col mb-4 item" data-category="bumn kain">
+            <div class="card h-100 ">
+              <img src="prod6.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="bumn kain">
+            <div class="card h-100 ">
+              <img src="prod7.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <!-- Olahraga -->
+          <!-- Polri -->
+          <div class="col mb-4 item" data-category="polri or">
+            <div class="card h-100 ">
+              <img src="prod8.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <div class="col mb-4 item" data-category="polri or">
+            <div class="card h-100 ">
+              <img src="prod9.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <!-- APD -->
+          <!-- TNI -->
+          <div class="col mb-4 item" data-category="tni apd">
+            <div class="card h-100 ">
+              <img src="prod15.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <!-- Jaket -->
+          <!-- tni -->
+          <div class="col mb-4 item" data-category="tni jaket">
+            <div class="card h-100 ">
+              <img src="prod29.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+          <!-- Disprov -->
+          <div class="col mb-4 item" data-category="dinas jaket">
+            <div class="card h-100 ">
+              <img src="prod2.png" class="card-img-top" alt="..." width="300">
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="infocont" data-aos="fade-right">
+    <div class="container sectioninfo">
+        <div class="col-md-3 kol1 container-fluid">
+            <div class="row">
+                <h4>Address</h4>
+            </div>
+            <div class="row">
+                Gedung World Capital Tower Lt 16 unit 8 & 9, Jl. Dr Ide Anak Agung Gde Agung Lot D Mega Kuningan, Jakarta Selatan 12950
+            </div>
+        </div>
+        <div class="col-md-3 kol2 container-fluid">
+            <div class="row">
+                <h4>Marketing Team</h4>
+            </div>
+            <div class="row markname">
+                <div>Kurnia (+62 812-8064-7707)</div>
+                <div>Yasser (+62 813-1108-1551)</div>
+                <div>Donny (+62 812-8220-0963)</div>
+            </div>
+        </div>
+        <div class="col-md-3 kol3 container-fluid">  
+            <div class="row">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15865.187902468966!2d106.8257302!3d-6.2245181!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd7dbb3981de70e5f!2sPanca%20Prima%20Maju%20Bersama!5e0!3m2!1sen!2sid!4v1663605433075!5m2!1sen!2sid" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Copyright -->
+    <section class="copyright d-flex justify-content-center copyrighttext w-100">
+      <p>&copy; Copyrights belong to PPMB</p>
+  </section>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://kit.fontawesome.com/b7f2fc75e8.js" crossorigin="anonymous"></script>
+  <script>
+
+  </script>
+
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

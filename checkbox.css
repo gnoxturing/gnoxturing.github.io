@@ -1,0 +1,39 @@
+input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;
+    height: 15px;
+    width: 15px;
+    background-color: #ffff;
+    border-radius: 1px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    outline: none;
+}
+
+input[type="checkbox"]::after{
+    font:var(--fa-font-solid);
+    content: "\f00c";
+    font-weight: bold;
+    font-size: 13px;
+    color: #042c56;
+    display: none;
+}
+
+input[type="checkbox"]:hover{
+    background-color: #a5a5a5;
+}
+
+input[type="chekcbox"]:checked{
+    background-color: #ffff;
+}
+
+input[type="checkbox"]:checked:after{
+    display: block;
+}
+
+.form-check-input:checked + .form-check-label{
+    font-weight: bolder;
+}
+
